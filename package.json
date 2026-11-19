@@ -1,0 +1,15 @@
+{
+  "name": "konane",
+  "version": "1.0.0",
+  "description": "Konane, as damas havaianas, resolvido por tabuleiro: qual pedra tirar na abertura, quantas aberturas resistem a qualquer resposta, e a soma com o espelho como juiz, em Node puro",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
